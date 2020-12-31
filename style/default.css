@@ -115,3 +115,73 @@ li {
     margin-bottom: 0.5rem;
 
 }
+#tarefas input {
+    float: left;
+    margin-right: 1rem;
+    margin-top: 0.2rem;
+}
+
+
+/*             BOTOES EDIT LISTAS       */
+
+#edit {
+    display: none;
+    transform: translateY(-40%);
+}
+.padrao_edit{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    padding: 1.5rem;
+    margin: 0 auto 1rem auto;
+    font-weight: bolder;
+    border-radius: 1.3rem;
+    border: none;
+    transition: 0.5s;
+    color: rgba(0, 0, 0, 0.644);
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+}
+.r {
+    background-color:#EEB9BA;
+
+}
+.r:hover {
+    background-color: #CB7173;
+    color: white;
+}
+.g {
+    background-color:#95C095;
+}
+.g:hover {
+    color: white;
+    background-color:#5BA45B;
+}
+
+#div_all {
+    padding: 1rem;
+    border: 2px solid rgba(0, 0, 0, 0.267);
+    width: 50%;
+    margin: 1rem auto;
+    background-color: rgba(0, 128, 0, 0.507);
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px black;
+}
+#all_delete {
+    font-family:'Courier New', Courier, monospace, Helvetica, sans-serif;
+    border-radius: .5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    font-weight: bolder;
+    padding: 0.6rem;
+    margin-left: 2rem;
+    background-color: rgba(0, 128, 0, 0.61);
+    color: white;
+    transition: 0.6s;
+}
+
+#all_delete:hover {
+    background-color: rgba(255, 0, 0, 0.507);
+    color: bolder;
+
+}

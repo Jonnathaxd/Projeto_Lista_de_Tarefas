@@ -21,7 +21,7 @@
                 <button class='padrao green' onClick='mostraButton()'>
                     Adicionar
                 </button>
-                <button class='padrao red' onClick='apaga()'>
+                <button class='padrao red' onClick='editar()'>
                     Editar
                 </button>
             </div>
@@ -31,8 +31,15 @@
                     <input type="submit" class="green p" onClick='adicionaItem()'>
                     <input type="reset" value="Apagar" class='red p'>
                 </form>
-
             </div>  
+            <div id='edit'>
+                <button class='padrao_edit r'>Apagar Tarefa(s)</button>
+                <button class='padrao_edit g' onClick='voltar()'>Voltar</button>
+                <div id='div_all'>
+                    <input type="checkbox" name='all' id='all' clicado='off' onClick="teste_box(this)"><button id='all_delete' onclick="all_delete()">APAGAR TODAS AS TAREFAS</button>
+                </div>
+            </div>
+
         </section>
     </main>
     <script src="./js/lista.js"></script>
