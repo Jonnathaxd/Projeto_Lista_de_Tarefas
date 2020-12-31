@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/default.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Lista de tarefas</title>
+</head>
+<body>
+    <main>
+        <section id='lista'>
+            <div id='container'>
+                <h1>Lista de tarefas</h1>
+                <ol id='tarefas'>
+                </ol>
+            </div>
+            <div id='botoes'>
+                <button class='padrao green' onClick='mostraButton()'>
+                    Adicionar
+                </button>
+                <button class='padrao red' onClick='apaga()'>
+                    Editar
+                </button>
+            </div>
+            <div id='add'>
+                <form action="">
+                    <input id='nova_tarefa' type="text" name='novoItem' placeholder='Adicione sua tarefa aqui! :)'>
+                    <input type="submit" class="green p" onClick='adicionaItem()'>
+                    <input type="reset" value="Apagar" class='red p'>
+                </form>
+
+            </div>  
+        </section>
+    </main>
+    <script src="./js/lista.js"></script>
+</body>
+</html>
