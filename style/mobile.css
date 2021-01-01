@@ -1,0 +1,73 @@
+@media screen and (max-width: 665px){
+
+    /*                   SESSÃO DA LISTA                          */
+
+    #lista{     
+        width: auto;
+        padding: 0 1rem 5rem 1rem;
+
+    }
+    #container h1{
+        font-size: 4rem;
+    }
+
+    #botoes {
+        text-align: center;
+    }
+    
+    .padrao{
+        display: block;
+        margin: auto;
+        font-size: 2rem;
+        width: 30rem;
+        margin: 0;
+        margin-bottom: 1rem;
+        
+    }
+    
+    li {
+        font-size: 3rem;
+        margin-left: 5rem;
+    }
+ 
+    
+    /*                          IMPUT                                   */
+#add input{
+    font-size: 2rem;
+    display: block;
+    width: 25rem;    
+}
+
+
+
+/*             FORMATAÇÃO DAS LISTAS                                 */
+#tarefas input {
+    float: left;
+    margin-left: 2rem;
+    margin-top: 1.2rem;
+}
+
+
+/*             BOTOES EDIT LISTAS       */
+
+#edit {
+    display: none;
+    transform: translateY(-40%);
+}
+.padrao_edit{
+    display: block;
+    font-size: 2rem;
+    width: 30rem;
+}
+
+#div_all {
+    padding: 1.2rem;
+    width: 30rem;
+}
+#all_delete {
+    font-size: 1.3rem;
+    padding: 1.2rem;
+}
+
+
+}

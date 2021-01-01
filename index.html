@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/icone.png" type="image/x-icon">
     <link rel="stylesheet" href="./style/default.css">
+    <link rel="stylesheet" href="./style/mobile.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <title>Lista de tarefas</title>
@@ -33,7 +34,7 @@
                 </form>
             </div>  
             <div id='edit'>
-                <button class='padrao_edit r'>Apagar Tarefa(s)</button>
+                <button class='padrao_edit r' onClick='apaga_parte()'>Apagar Tarefa(s)</button>
                 <button class='padrao_edit g' onClick='voltar()'>Voltar</button>
                 <div id='div_all'>
                     <input type="checkbox" name='all' id='all' clicado='off' onClick="teste_box(this)"><button id='all_delete' onclick="all_delete()">APAGAR TODAS AS TAREFAS</button>
