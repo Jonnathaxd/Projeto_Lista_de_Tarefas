@@ -1,14 +1,13 @@
 @media screen and (max-width: 665px){
-
     /*                   SESSÃO DA LISTA                          */
-
     #lista{     
         width: auto;
         padding: 0 1rem 5rem 1rem;
 
     }
     #container h1{
-        font-size: 4rem;
+        font-size: 3rem;
+        width: 90vw;
     }
 
     #botoes {
@@ -19,23 +18,27 @@
         display: block;
         margin: auto;
         font-size: 2rem;
-        width: 30rem;
+        width: 95vw;
         margin: 0;
         margin-bottom: 1rem;
         
     }
     
     li {
-        font-size: 3rem;
-        margin-left: 5rem;
+        width: 70vw;
+        font-size: 2rem;
+        margin: 0;
+        margin-left: 4rem;
     }
  
     
     /*                          IMPUT                                   */
 #add input{
-    font-size: 2rem;
+    text-align: center;
+    width: 80vw;
+    margin: auto;
     display: block;
-    width: 25rem;    
+    margin-bottom: .4rem;
 }
 
 
@@ -44,7 +47,7 @@
 #tarefas input {
     float: left;
     margin-left: 2rem;
-    margin-top: 1.2rem;
+    margin-top: 0.5rem;
 }
 
 
@@ -57,17 +60,16 @@
 .padrao_edit{
     display: block;
     font-size: 2rem;
-    width: 30rem;
+    width: 80vw;
 }
 
 #div_all {
     padding: 1.2rem;
-    width: 30rem;
+    width: 80vw ;
 }
 #all_delete {
+    width: 60vw;
     font-size: 1.3rem;
     padding: 1.2rem;
 }
-
-
 }
